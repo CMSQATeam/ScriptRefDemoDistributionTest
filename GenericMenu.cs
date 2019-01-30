@@ -13,13 +13,13 @@ namespace UnityEditor
             public sealed class GenericMenu
     {
         // Callback function, called when a menu item is selected
-        /// <summary>
-        /// Callback function, called when a menu item is selected.
-        /// </summary>
-        /// <description>
-        /// SA: GenericMenu, GenericMenu.MenuFunction2.
-        /// </description>
-        public delegate void MenuFunction();
+        ///     <summary>
+                ///     Callback function, called when a menu item is selected.
+                ///     </summary>
+                ///     <description>
+                ///     SA: GenericMenu, GenericMenu.MenuFunction2.
+                ///     </description>
+                        public delegate void MenuFunction();
 
         // Callback function with user data, called when a menu item is selected
         /// <summary>
