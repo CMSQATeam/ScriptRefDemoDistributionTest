@@ -23,18 +23,18 @@ namespace UnityEditor
 
         // Callback function with user data, called when a menu item is selected
         ///     <summary>
-                ///     Callback function with user data, called when a menu item is selected.
-                ///     </summary>
-                ///     <description>
-                ///     SA: GenericMenu, GenericMenu.MenuFunction.
-                ///     </description>
-                ///     <param name="userData">
-                ///     The data to pass through to the callback function.
-                ///     </param>
-                ///     <description>
-                ///     SA: GenericMenu, GenericMenu.MenuFunction.
-                ///     </description>
-                        public delegate void MenuFunction2(object userData);
+                                ///     Callback function with user data, called when a menu item is selected.
+                                ///     </summary>
+                                ///     <description>
+                                ///     SA: GenericMenu, GenericMenu.MenuFunction.
+                                ///     </description>
+                                ///     <param name="userData">
+                                ///     The data to pass through to the callback function.
+                                ///     </param>
+                                ///     <description>
+                                ///     SA: GenericMenu, GenericMenu.MenuFunction.
+                                ///     </description>
+                                                        public delegate void MenuFunction2(object userData);
 
         // Add an item to the menu
         ///     <summary>
